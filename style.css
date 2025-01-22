@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  line-height: 1.4;
+  scroll-behavior: smooth;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #007acc;
+}
+
+a:hover {
+  color: #005f99;
+}
+
+body {
+  display: flex;
+  gap: 10px;
+}
+
+header {
+  border: 1px solid #e0e0e0;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  background-color: #ffffff;
+}
+
+nav h1 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  padding: 10px;
+  border-bottom: 1px solid #e0e0e0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  border-bottom: 1px solid #e0e0e0;
+  padding: 10px;
+  color: #555;
+  background-color: #f9f9f9;
+}
+
+nav ul li:hover {
+  background: #d3d4d5;
+  transition: 0.3s ease-in-out;
+}
+
+main {
+  padding: 50px;
+}
+
+section {
+  margin-bottom: 50px;
+  scroll-margin: 50px;
+}
+
+section article {
+  max-width: 1200px;
+  font-size: 14px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  font-size: 20px;
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+section article ul {
+  margin-left: 20px;
+}
+
+section article ul li {
+  margin-bottom: 10px;
+}
+
+section article p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+code {
+  display: block;
+  text-align: left;
+  white-space: pre-line;
+  line-height: 2;
+  background-color: #f4f4f4;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid #e0e0e0;
+}
